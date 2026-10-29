@@ -1,0 +1,2 @@
+{"order_id": "ORD-104", "customer_id": "CUST-04", "order_date": "2026-10-04", "amount": -20.0, "status": "COMPLETED", "run_id": "run_20261029_124412_1deb99", "rejection_reason": "Amount -20.0 is below minimum allowed value."}
+{"order_id": "ORD-105", "customer_id": "CUST-05", "order_date": "2026-10-05", "amount": 99.99, "status": "UNKNOWN_STATUS", "run_id": "run_20261029_124412_1deb99", "rejection_reason": "Invalid status value: 'UNKNOWN_STATUS'"}

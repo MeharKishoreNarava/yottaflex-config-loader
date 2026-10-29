@@ -1,0 +1,1 @@
+{"run_id": "run_20261029_124412_1deb99", "dataset": "ecommerce_orders", "start_time": "2026-10-29T12:44:12.332500", "end_time": "2026-10-29T12:44:12.708741", "input_rows": 6, "valid_rows_processed": 4, "duplicates_removed": 1, "rejected_rows": 2, "final_target_rows": 3, "status": "SUCCESS"}

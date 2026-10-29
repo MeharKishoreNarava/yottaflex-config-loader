@@ -1,0 +1,20 @@
+{
+  "dataset_name": "ecommerce_orders",
+  "source_path": "data/sample_input.csv",
+  "target_path": "output/cleaned_target.parquet",
+  "reject_path": "output/rejects.jsonl",
+  "audit_log_path": "output/run_audit.log",
+  "file_format": "csv",
+  "primary_keys": ["order_id"],
+  "schema": {
+    "order_id": "string",
+    "customer_id": "string",
+    "order_date": "string",
+    "amount": "float",
+    "status": "string"
+  },
+  "business_rules": {
+    "min_amount": 0.0,
+    "allowed_statuses": ["PENDING", "COMPLETED", "CANCELLED", "REFUNDED"]
+  }
+}
